@@ -2,6 +2,10 @@
 
 (based on [this paper](https://arxiv.org/pdf/1801.07729.pdf))
 
+## Prerequisites
+
+You can install all necessary Python packages via `pip install -r requirements.txt`
+
 ## Data
 
 Downloaded from Painter by numbers challenge from Kaggle

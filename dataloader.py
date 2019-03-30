@@ -10,7 +10,7 @@ import sys
 
 #TODO: what preprocessing is necessary? especially what are good values for target_size?
 
-def make_dataloader(filepath='data', target_size=(150, 150), batch_size=100, **kwargs):
+def make_dataloader(filepath='data', target_size=(224, 224), batch_size=100, **kwargs):
     '''Returns a Keras dataloader with specified preprocessing'''
     train_datagen = ImageDataGenerator(**kwargs)
     train_generator = train_datagen.flow_from_directory(filepath,
